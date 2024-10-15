@@ -1,0 +1,12 @@
+1. [Home](https://github.com/HADatAc/hascoapi/wiki)
+2. [Installation Guide](https://github.com/HADatAc/hascoapi/wiki/1.-Installation)
+3. [Upgrade](https://github.com/HADatAc/hascoapi/wiki/2.-Upgrade)
+4. [Refreshing triplestore content](https://github.com/HADatAc/hascoapi/wiki/3.-Refreshing-triplestore-content)
+5. [Backup HAScO API](https://github.com/HADatAc/hascoapi/wiki/4.-Backup-HAScO-API)
+6. [Handling errors](https://github.com/HADatAc/hascoapi/wiki/5.-Handling-errors)
+   1. [CreationException](https://github.com/HADatAc/hascoapi/wiki/5.-Handling-errors#1-creationexception)
+      1. [Unable to create injector, see the following errors](https://github.com/HADatAc/hascoapi/wiki/5.-Handling-errors#11-unable-to-create-injector-see-the-following-errors)
+7. Appendix
+   1. [Installing `git`](https://github.com/HADatAc/hascoapi/wiki/A.1.-Installing-git)
+   2. [Installing `docker`](https://github.com/HADatAc/hascoapi/wiki/A.2.-Installing-docker)
+   3. [Installing Java 11 and `sbt`](https://github.com/HADatAc/hascoapi/wiki/A.3.-Installing-Java-11-and-sbt)
