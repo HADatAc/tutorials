@@ -35,6 +35,7 @@ First of all, you need to know if fuseki is active. To do this, run the `docker 
    sudo chmod -R 777 ./fuseki/*
    ```
 3. Port 3030 is already in use
+   
    You need check the port usage with the following command
    ```bash
    sudo lsof -i :3030 
