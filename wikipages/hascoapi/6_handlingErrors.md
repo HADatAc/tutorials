@@ -14,7 +14,7 @@
 
 Problem with the fuseki triplestore, commonly located at [http://localhost:3030](http://localhost:3030).
 
-**Solution**
+**Solutions**
 
 First of all, you need to know if fuseki is active. To do this, run the `docker ps` command and check that the **hascoapi_fuseki** container is “Up”. In this case, there are a few possible scenarios:
 
@@ -33,4 +33,17 @@ First of all, you need to know if fuseki is active. To do this, run the `docker 
    ```bash
    cd hascoapi_root
    sudo chmod -R 777 ./fuseki/*
+   ```
+3. Port 3030 is already in use
+   You need check the port usage with the following command
+   ```bash
+   sudo lsof -i :3030 
+   ```
+   and kill these PIDs typing the command
+   ```bash
+   sudo kill <type the PID>
+   ```
+   Or you can make it automatically
+   ```bash
+   sudo kill $(sudo lsof -i :3030 | grep :3030 | awk '{print $2}')
    ```
