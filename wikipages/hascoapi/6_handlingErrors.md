@@ -1,5 +1,13 @@
 # Handling errors
 
+## Docker containers
+
+### 1. Error response from daemon
+
+#### 1.1 Cannot stop container
+
+It would be best to type the command `sudo aa-remove-unknown` and then try executing the `docker stop containername` again.
+
 ## HAScO API
 
 ### 1. CreationException
