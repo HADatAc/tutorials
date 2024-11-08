@@ -6,7 +6,11 @@
 
 #### 1.1 Cannot stop container
 
-It would be best to type the command `sudo systemctl restart docker.socket docker.service` and then try executing the `docker stop containername` again.
+It would be best to type the command
+```bash
+sudo systemctl restart docker.socket docker.service
+```
+and then try stopping the container again.
 
 ## HAScO API
 
